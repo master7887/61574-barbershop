@@ -146,6 +146,12 @@ footer {
     background-color: orange;
 }
 
+.product-page-images .preview {
+    display: inline-block;
+    margin-right: 17px;
+    font-size: 0;
+}
+
 .product-page-content {
     float: right;
     width: 400px;
@@ -172,6 +178,7 @@ footer {
     margin-right: 20px;
     font-size: 14px;
     /*    outline: inherit;*/
+    width: 220px;
 }
 
 .pagination {
@@ -198,9 +205,9 @@ footer {
 }
 
 .catalog-item-buy .catalog-price {
-    float: left;
+    display: inline-block;
 }
 
 .catalog-item-buy .catalog-buy {
-    float: right;
+    display: inline-block;
 }
